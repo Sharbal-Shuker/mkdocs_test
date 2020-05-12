@@ -14,14 +14,13 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Building the Docker image...
-      - docker build -t mkdocs_test_conti:latest .
-      - docker tag $REPOSITORY_URI:latest $REPOSITORY_URI:$IMAGE_TAG
+      - docker build -t mkdocs_test_conti .
+      - docker tag mkdocs_test_conti:latest 506791130917.dkr.ecr.us-east-1.amazonaws.com/mkdocs_test_conti:latest
   post_build:
     commands:
       - echo Build completed on `date`
       - echo Pushing the Docker images....
-      - docker push mkdocs_test_conti:latest
-      - docker push $REPOSITORY_URI:$IMAGE_TAG
+      - docker push 506791130917.dkr.ecr.us-east-1.amazonaws.com/mkdocs_test_conti:latest
       - echo Writing image definitions file...
       - printf '[{"name":"nodeapp","imageUri":"%s"}]' $REPOSITORY_URI:$IMAGE_TAG > imagedefinitions.json
       - cat imagedefinitions.json 
