@@ -6,6 +6,6 @@ WORKDIR /workspace
 
 ADD docs /workspace/docs
 
-COPY mkdocs.yml /workspace
+COPY . .
 
 #CMD [ "mkdocs", "build" ]
