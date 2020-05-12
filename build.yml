@@ -14,8 +14,7 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Building the Docker image....
-      - docker build -t mkdocs_test_conti .
-      - docker tag mkdocs_test_conti:latest 506791130917.dkr.ecr.us-east-1.amazonaws.com/mkdocs_test_conti:latest
+      - docker build -t 506791130917.dkr.ecr.us-east-1.amazonaws.com/mkdocs_test_conti:latest .
   post_build:
     commands:
       - echo Build completed on `date`
