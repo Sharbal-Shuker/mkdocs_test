@@ -8,4 +8,4 @@ ADD docs /workspace/docs
 
 COPY . .
 
-#CMD [ "mkdocs", "build" ]
+CMD [ "mkdocs", "build" ]
