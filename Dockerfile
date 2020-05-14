@@ -8,4 +8,4 @@ ADD docs /workspace/docs
 
 COPY . .
 
-ENTRYPOINT [ "mkdocs", "build" ]
+#ENTRYPOINT [ "mkdocs", "build" ]
