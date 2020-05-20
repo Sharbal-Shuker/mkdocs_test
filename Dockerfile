@@ -2,9 +2,9 @@ FROM python:3.7
 
 RUN pip install mkdocs
 
-WORKDIR /workspace
+WORKDIR /usr/bin/workspace
 
-ADD docs /workspace/docs
+ADD docs /usr/bin/workspace/docs
 
 COPY . .
 
