@@ -2,10 +2,10 @@ FROM python:3.7
 
 RUN pip install mkdocs
 
-WORKDIR /usr/bin/workspace
+WORKDIR workspace
 
-ADD docs /usr/bin/workspace/docs
+ADD docs workspace/docs
 
 COPY . .
 
-#ENTRYPOINT [ "mkdocs", "build" ]
+CMD [ "mkdocs", "build" ]
