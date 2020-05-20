@@ -4,8 +4,6 @@ RUN pip install mkdocs
 
 WORKDIR workspace
 
-ADD docs workspace/docs
-
 COPY . .
 
 CMD [ "mkdocs", "build" ]
