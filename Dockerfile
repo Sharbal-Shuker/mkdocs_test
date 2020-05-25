@@ -6,7 +6,7 @@ WORKDIR workspace
 
 COPY . .
 
-ENTRYPOINT ["mkdocs"]
+#ENTRYPOINT ["mkdocs"]
 
-CMD ["build"]
+CMD mkdocs build
 
