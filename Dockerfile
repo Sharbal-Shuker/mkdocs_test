@@ -8,4 +8,3 @@ ENTRYPOINT ["mkdocs"]
 
 CMD ["build"]
 
-COPY . .
