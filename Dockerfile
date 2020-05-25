@@ -6,4 +6,6 @@ WORKDIR workspace
 
 COPY . .
 
-CMD [ "mkdocs", "build" ]
+ENTRYPOINT docker rmi -f $(docker images -q -f "dangling=true")
+
+CMD mkdocs build
