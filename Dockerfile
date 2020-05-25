@@ -4,10 +4,7 @@ RUN pip install mkdocs
 
 WORKDIR workspace
 
-COPY . .
+ENTRYPOINT ["mkdocs"]
 
-#ENTRYPOINT ["mkdocs"]
+CMD ["build"]
 
-#CMD ["build"]
-
-CMD ["/start.sh"]
