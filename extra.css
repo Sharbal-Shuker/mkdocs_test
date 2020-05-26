@@ -1,0 +1,35 @@
+
+.wy-side-nav-search{
+    background-color: #ffa500 !important;
+}
+  
+nav.stickynav{
+    background-color: #000000 !important;
+}
+  
+.wy-side-nav-search input[type=text]{
+    border-color: rgb(68, 68, 68) !important;
+}
+
+.wy-nav-top{
+    background: #ffa500 !important;
+}
+
+.md-header{
+    background-color: #ffa500
+}
+.md-tabs{
+    background-color: #ffa500
+}
+
+@media only screen and (max-width: 76.1875em){
+    html .md-nav--primary .md-nav__title--site{
+        background-color: #ffa500
+    }    
+}
+
+img {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
