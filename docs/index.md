@@ -8,3 +8,7 @@
 - [x] Write the press release
 - [ ] Update the website
 - [ ] Contact the media
+
+
+!!! note
+     Remember to exchange the security group identifier to the id of your first security group (A).
