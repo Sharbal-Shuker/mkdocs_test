@@ -10,4 +10,8 @@ markdown_extensions:
   - admonition
   - attr_list
 nav:
-- Wiki: "index.md"
+- Home: "index.md"
+- General:
+  - Page 1: general/page1.md
+- How to:
+  - Page 2: how to/page2.md
