@@ -1,5 +1,4 @@
-site_name: Continental ConNext Documentation
-dev_addr: '127.0.0.1:8080'
+site_name: Continental Documentation
 extra_css: ['extra.css']
 strict: true
 theme:
