@@ -1,1 +1,11 @@
-site_name: MY Mkdocs
+site_name: Continental Documentation
+extra_css: ['extra.css']
+strict: true
+theme:
+  name: 'material'
+  feature:
+    tabs: true
+markdown_extensions:
+  - codehilite
+  - admonition
+  - attr_list
