@@ -1,6 +1,7 @@
 FROM python:3.7
 
-RUN pip install mkdocs && pip install mkdocs-material
+RUN pip install mkdocs 
+RUN pip install mkdocs-material
 
 WORKDIR workspace
 
