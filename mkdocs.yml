@@ -1,4 +1,5 @@
-site_name: Continental Documentation
+site_name: Continental ConNext Documentation
+dev_addr: '127.0.0.1:8080'
 extra_css: ['extra.css']
 strict: true
 theme:
@@ -9,3 +10,5 @@ markdown_extensions:
   - codehilite
   - admonition
   - attr_list
+nav:
+- Wiki: "index.md"
