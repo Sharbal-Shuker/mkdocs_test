@@ -1,5 +1,16 @@
 ##Continental Documentation
 
+#Continental Documentation
+
+![welcome wiki.png](images/welcome wiki.png)
+
+---
+
+**Use the Search function to find information based on tags:**
+
+
+--- 
+
 
 | Syntax | Description |
 | ----------- | ----------- |
