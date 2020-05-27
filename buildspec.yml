@@ -7,7 +7,7 @@ phases:
       - aws --version
       - $(aws ecr get-login --region $AWS_DEFAULT_REGION --no-include-email)
       - IMAGE_NAME="imageapi"
-      - REPOSITORY_URI=947344745710.dkr.ecr.us-east-1.amazonaws.com/mkdocs
+      - REPOSITORY_URI=754413189608.dkr.ecr.us-east-1.amazonaws.com/mkdocs
       - IMAGE_TAG=prod_$(echo $CODEBUILD_RESOLVED_SOURCE_VERSION | cut -c 1-7)
   build:
     commands:
